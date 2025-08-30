@@ -84,7 +84,7 @@ fun CharacterOverlay(
                     modifier = Modifier
                         .align(Alignment.TopStart)
                         .offset(x = (-130).dp, y = (-20).dp) // Moved cloud
-                        .scale(cloudScale + 1.2f) // Made cloud bigger to prevent text overflow
+                        .scale(cloudScale + .7f) // Made cloud bigger to prevent text overflow
                 ) {
                     Image(
                         painter = painterResource(id = R.drawable.cloud),
@@ -161,5 +161,6 @@ fun CharacterOverlay(
         }
     }
 }
+
 
 
